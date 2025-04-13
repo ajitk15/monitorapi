@@ -32,6 +32,10 @@ pip install -r requirements.txt
 ```bash
 uvicorn main:app --reload
 ```
+Custom port
+```bash
+uvicorn main:app --host 0.0.0.0 --port 5001 --reload
+```
 
 ## Other Commands
 
@@ -54,4 +58,8 @@ uvicorn main:app --reload
   ```bash
   pip freeze > requirements.txt
   ```
-
+- Expose port
+  ```bash
+  sudo firewall-cmd --zone=public --add-port=5000/tcp --permanent
+  sudo firewall-cmd --reload
+  ```
