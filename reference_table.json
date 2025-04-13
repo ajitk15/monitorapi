@@ -1,0 +1,28 @@
+[
+    {
+      "monitor_type": "cpu",
+      "daytype": "weekday",
+      "destination": "email"
+    },
+    {
+      "monitor_type": "cpu",
+      "daytype": "weekend",
+      "destination": "email"
+    },
+    {
+      "monitor_type": "memory",
+      "daytype": "weekday",
+      "destination": "splunk"
+    },
+    {
+      "monitor_type": "memory",
+      "daytype": "weekend",
+      "destination": "splunk"
+    },
+    {
+      "monitor_type": "disk",
+      "daytype": "weekday",
+      "destination": "email"
+    }
+  ]
+  

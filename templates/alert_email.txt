@@ -1,0 +1,8 @@
+🚨 Alert: {{monitor_type}} 🚨
+
+Error: {{error}}
+Error Code: {{error_code}}
+Monitor Type: {{monitor_type}}
+Day Type: {{daytype}}
+
+Timestamp: {{timestamp}}
