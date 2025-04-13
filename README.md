@@ -13,6 +13,9 @@ uvicorn main:app --reload
 
 Other Commands
 python.exe -m pip install --upgrade pip
-Pip install fastapi
-Pip install  uvicorn 
+
+pip install fastapi
+
+pip install  uvicorn 
+
 pip freeze > requirements.txt
