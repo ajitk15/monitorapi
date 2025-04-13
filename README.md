@@ -1,21 +1,57 @@
-# monitorapi
+# MonitorAPI
 
-Setup python environment
-python -m venv myenv
-myenv\Scripts\activate
-Linux source myenv/bin/activate
+A FastAPI-based application for monitoring purposes.
 
-Install Requirements
+---
+
+## Setup Python Environment
+
+1. Create a virtual environment:
+   ```bash
+   python -m venv myenv
+   ```
+
+2. Activate the virtual environment:
+   - On Windows:
+     ```bash
+     myenv\Scripts\activate
+     ```
+   - On Linux/MacOS:
+     ```bash
+     source myenv/bin/activate
+     ```
+
+## Install Requirements
+
+```bash
 pip install -r requirements.txt
- 
-Run app
+```
+
+## Run the Application
+
+```bash
 uvicorn main:app --reload
+```
 
-Other Commands
-python.exe -m pip install --upgrade pip
+## Other Commands
 
-pip install fastapi
+- Upgrade pip:
+  ```bash
+  python.exe -m pip install --upgrade pip
+  ```
 
-pip install  uvicorn 
+- Install FastAPI:
+  ```bash
+  pip install fastapi
+  ```
 
-pip freeze > requirements.txt
+- Install Uvicorn:
+  ```bash
+  pip install uvicorn
+  ```
+
+- Freeze requirements:
+  ```bash
+  pip freeze > requirements.txt
+  ```
+
